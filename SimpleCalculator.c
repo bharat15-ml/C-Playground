@@ -21,7 +21,7 @@ return result;
 }
 
 // main program
-int main(){
+void main(){
 float a,b,result;
 int choice;
 printf("Enter Two Numbers: \n");
@@ -32,7 +32,6 @@ scanf("%f",&b);
 printf("Enter operation, 1:add, 2:substract, 3:multiplaction, 4:division \n");
 scanf("%d", &choice);
 result=cal(a,b,choice);
-printf("based on operation result of two operands are: %f \n", result);
-return 0;
+printf("based on operation result of two operands are: %.2f \n", result);
 }
 
